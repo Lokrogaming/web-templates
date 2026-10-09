@@ -55,7 +55,7 @@
     "name": "React Starter",
     "zip": "react-starter.zip",
     "verified": true,
-    "version": "1.1.0",
+    "version": "1.1.1",
     "description": "Schlanker Vite + React 18 Starter mit Beispiel-Komponenten – konfigurierbar (Name, Rolle, E-Mail).",
     "author": "Lokrogaming",
     "updated": "2026-10-09",
@@ -65,6 +65,6 @@
     "preview": "previews/react-starter.png",
     "deploy": ["github-pages", "vercel", "netlify"],
     "features": ["Vite mit HMR", "Counter-Komponente", "Todo-Liste (State/Hooks)", "Theme-Toggle", "Production-Build nach dist/", "Konfigurierbar: Name, Rolle, E-Mail"],
-    "versions": [{ "version": "1.1.0", "date": "2026-10-09", "notes": "Konfigurierbar via {site.name}, {owner.name}, {owner.role}, {contact.email}." }, { "version": "1.0.0", "date": "2026-10-09", "notes": "Initiale Version (React 18 + Vite 6)." }]
+    "versions": [{ "version": "1.1.1", "date": "2026-10-09", "notes": "allowScripts für esbuild (npm 11+ installiert ohne EALLOWSCRIPTS)." }, { "version": "1.1.0", "date": "2026-10-09", "notes": "Konfigurierbar via {site.name}, {owner.name}, {owner.role}, {contact.email}." }, { "version": "1.0.0", "date": "2026-10-09", "notes": "Initiale Version (React 18 + Vite 6)." }]
   }
 ]
