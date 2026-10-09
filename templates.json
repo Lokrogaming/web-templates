@@ -10,7 +10,9 @@
     "updated": "2026-10-09",
     "type": "html",
     "languages": ["HTML", "CSS", "JavaScript"],
-    "entry": "index.html"
+    "entry": "index.html",
+    "preview": "previews/test-template.svg",
+    "deploy": ["github-pages"]
   },
   {
     "id": "portfolio-starter",
@@ -23,6 +25,8 @@
     "updated": "2026-10-09",
     "type": "html",
     "languages": ["HTML", "CSS"],
-    "entry": "index.html"
+    "entry": "index.html",
+    "preview": "previews/portfolio-starter.svg",
+    "deploy": ["github-pages"]
   }
 ]

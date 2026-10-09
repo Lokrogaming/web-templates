@@ -33,6 +33,8 @@ Zentrales Template-Repo für **Web Template Studio** (Desktop-App + Website).
 - `name`: Anzeigename für Cards / Modals
 - `zip`: Dateiname unter `/templates/`
 - `verified`: wenn `true`, zeigt die Desktop-App ein Verified-Icon (✅) auf der Card + Detailseite
+- `preview` (optional): Pfad zu einem Vorschaubild im Repo, z. B. `previews/mein-template.png` – wird auf Cards + Detail-Panel gezeigt
+- `deploy` (optional): Liste von Deploy-Zielen als Indikatoren, z. B. `["github-pages"]`, `["vercel"]`, `["netlify"]`, `["node"]`
 - `version`, `description`, `author`, `updated` (`YYYY-MM-DD`), `type` (`html` | `node` | `static` …), `languages`, `entry` (Startdatei)
 
 ## `.temp-config` – Format (liegt IN jedem Zip im Root)
