@@ -38,6 +38,27 @@ Zentrales Template-Repo für **Web Template Studio** (Desktop-App + Website).
 - `features` (optional): Liste von Feature-Stichpunkten für die Detailseite
 - `versions` (optional): Versionshistorie für die Detailseite, z. B. `[{"version": "1.1.0", "date": "2026-10-09", "notes": "Neues Farbschema."}]`
 - `related` (geplant, siehe SiteSmith-Repo `IDEEN.md`): verwandte Templates/Versionen mit Relationstyp
+
+## Template-Konfiguration (`config` + Platzhalter)
+
+Templates können in `.temp-config` ein `config`-Array deklarieren. Beim Installieren
+zeigt SiteSmith daraus ein Formular; die Werte ersetzen **vor** der Repo-Erstellung
+alle `{id}`-Platzhalter in Textdateien (`.html`, `.css`, `.js(x)`, `.json`, `.md`, …).
+`meta/`, `.git` und `node_modules` werden nie angefasst. IDs bitte namespacen
+(z. B. `site.name`), damit sie nicht mit echtem Code (z. B. JSX `{f.title}`) kollidieren.
+
+```json
+"config": [
+  { "id": "site.name", "name": "Website-Name", "type": "text", "required": true, "default": "Pulse" },
+  { "id": "contact.email", "name": "Kontakt-E-Mail", "type": "email", "required": false, "default": "hallo@pulse.example" }
+]
+```
+
+Typen: `text`, `textarea`, `email`, `url`, `number`, `boolean`, `color`, `select`
+(bei `select` zusätzlich `"options": ["a", "b"]`). Fehlende Werte fallen auf `default`
+zurück, damit keine Platzhalter übrig bleiben. Gespeicherte Werte landen in
+`meta/meta.json` des installierten Projekts und können später in den
+Project-Settings geändert bzw. auf neue Template-Versionen migriert werden.
 - `version`, `description`, `author`, `updated` (`YYYY-MM-DD`), `type` (`html` | `node` | `static` …), `languages`, `entry` (Startdatei)
 
 ## `.temp-config` – Format (liegt IN jedem Zip im Root)

@@ -38,8 +38,8 @@
     "name": "Pages Landing",
     "zip": "pages-landing.zip",
     "verified": true,
-    "version": "1.0.0",
-    "description": "Komplette Produkt-Landingpage (Hero, Dashboard-Mock, Features, Preise, FAQ) – statisch, Pages-ready.",
+    "version": "1.1.0",
+    "description": "Komplette Produkt-Landingpage (Hero, Dashboard-Mock, Features, Preise, FAQ) – statisch, Pages-ready, konfigurierbar.",
     "author": "Lokrogaming",
     "updated": "2026-10-09",
     "type": "html",
@@ -47,16 +47,16 @@
     "entry": "index.html",
     "preview": "previews/pages-landing.png",
     "deploy": ["github-pages"],
-    "features": ["Hero mit animierten Zählern", "Dashboard-Mock mit Demo-Chart", "Feature-Grid", "Preispläne", "FAQ", "Dark/Light-Theme", "Responsives Mobil-Menü"],
-    "versions": [{ "version": "1.0.0", "date": "2026-10-09", "notes": "Initiale Version mit allen Sektionen." }]
+    "features": ["Hero mit animierten Zählern", "Dashboard-Mock mit Demo-Chart", "Feature-Grid", "Preispläne", "FAQ", "Dark/Light-Theme", "Responsives Mobil-Menü", "Konfigurierbar: Name, Tagline, E-Mail"],
+    "versions": [{ "version": "1.1.0", "date": "2026-10-09", "notes": "Konfigurierbar via {site.name}, {site.tagline}, {contact.email}." }, { "version": "1.0.0", "date": "2026-10-09", "notes": "Initiale Version mit allen Sektionen." }]
   },
   {
     "id": "react-starter",
     "name": "React Starter",
     "zip": "react-starter.zip",
     "verified": true,
-    "version": "1.0.0",
-    "description": "Schlanker Vite + React 18 Starter mit Beispiel-Komponenten (Counter, Todos, Theme-Toggle).",
+    "version": "1.1.0",
+    "description": "Schlanker Vite + React 18 Starter mit Beispiel-Komponenten – konfigurierbar (Name, Rolle, E-Mail).",
     "author": "Lokrogaming",
     "updated": "2026-10-09",
     "type": "node",
@@ -64,7 +64,7 @@
     "entry": "index.html",
     "preview": "previews/react-starter.png",
     "deploy": ["github-pages", "vercel", "netlify"],
-    "features": ["Vite mit HMR", "Counter-Komponente", "Todo-Liste (State/Hooks)", "Theme-Toggle", "Production-Build nach dist/"],
-    "versions": [{ "version": "1.0.0", "date": "2026-10-09", "notes": "Initiale Version (React 18 + Vite 6)." }]
+    "features": ["Vite mit HMR", "Counter-Komponente", "Todo-Liste (State/Hooks)", "Theme-Toggle", "Production-Build nach dist/", "Konfigurierbar: Name, Rolle, E-Mail"],
+    "versions": [{ "version": "1.1.0", "date": "2026-10-09", "notes": "Konfigurierbar via {site.name}, {owner.name}, {owner.role}, {contact.email}." }, { "version": "1.0.0", "date": "2026-10-09", "notes": "Initiale Version (React 18 + Vite 6)." }]
   }
 ]
