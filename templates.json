@@ -1,0 +1,28 @@
+[
+  {
+    "id": "test-template",
+    "name": "Test Template",
+    "zip": "test-template.zip",
+    "verified": true,
+    "version": "1.0.0",
+    "description": "Minimaler HTML-Starter zum Testen von Download, Workflow und Preview.",
+    "author": "Lokrogaming",
+    "updated": "2026-10-09",
+    "type": "html",
+    "languages": ["HTML", "CSS", "JavaScript"],
+    "entry": "index.html"
+  },
+  {
+    "id": "portfolio-starter",
+    "name": "Portfolio Starter",
+    "zip": "portfolio-starter.zip",
+    "verified": false,
+    "version": "0.1.0",
+    "description": "Schlichtes Portfolio-Template (noch nicht verifiziert).",
+    "author": "Lokrogaming",
+    "updated": "2026-10-09",
+    "type": "html",
+    "languages": ["HTML", "CSS"],
+    "entry": "index.html"
+  }
+]
