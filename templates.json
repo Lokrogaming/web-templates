@@ -12,7 +12,9 @@
     "languages": ["HTML", "CSS", "JavaScript"],
     "entry": "index.html",
     "preview": "previews/test-template.svg",
-    "deploy": ["github-pages"]
+    "deploy": ["github-pages"],
+    "features": ["Minimaler Aufbau", "Interaktiver Button-Test", "Preview-tauglich"],
+    "versions": [{ "version": "1.0.0", "date": "2026-10-09", "notes": "Initiale Version." }]
   },
   {
     "id": "portfolio-starter",
@@ -27,6 +29,42 @@
     "languages": ["HTML", "CSS"],
     "entry": "index.html",
     "preview": "previews/portfolio-starter.svg",
-    "deploy": ["github-pages"]
+    "deploy": ["github-pages"],
+    "features": ["Header mit Profil", "Projekt-Cards", "Kontakt-Bereich"],
+    "versions": [{ "version": "0.1.0", "date": "2026-10-09", "notes": "Erster Entwurf." }]
+  },
+  {
+    "id": "pages-landing",
+    "name": "Pages Landing",
+    "zip": "pages-landing.zip",
+    "verified": true,
+    "version": "1.0.0",
+    "description": "Komplette Produkt-Landingpage (Hero, Dashboard-Mock, Features, Preise, FAQ) – statisch, Pages-ready.",
+    "author": "Lokrogaming",
+    "updated": "2026-10-09",
+    "type": "html",
+    "languages": ["HTML", "CSS", "JavaScript"],
+    "entry": "index.html",
+    "preview": "previews/pages-landing.png",
+    "deploy": ["github-pages"],
+    "features": ["Hero mit animierten Zählern", "Dashboard-Mock mit Demo-Chart", "Feature-Grid", "Preispläne", "FAQ", "Dark/Light-Theme", "Responsives Mobil-Menü"],
+    "versions": [{ "version": "1.0.0", "date": "2026-10-09", "notes": "Initiale Version mit allen Sektionen." }]
+  },
+  {
+    "id": "react-starter",
+    "name": "React Starter",
+    "zip": "react-starter.zip",
+    "verified": true,
+    "version": "1.0.0",
+    "description": "Schlanker Vite + React 18 Starter mit Beispiel-Komponenten (Counter, Todos, Theme-Toggle).",
+    "author": "Lokrogaming",
+    "updated": "2026-10-09",
+    "type": "node",
+    "languages": ["JavaScript", "JSX", "CSS", "React"],
+    "entry": "index.html",
+    "preview": "previews/react-starter.png",
+    "deploy": ["github-pages", "vercel", "netlify"],
+    "features": ["Vite mit HMR", "Counter-Komponente", "Todo-Liste (State/Hooks)", "Theme-Toggle", "Production-Build nach dist/"],
+    "versions": [{ "version": "1.0.0", "date": "2026-10-09", "notes": "Initiale Version (React 18 + Vite 6)." }]
   }
 ]

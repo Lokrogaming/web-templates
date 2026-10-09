@@ -35,6 +35,9 @@ Zentrales Template-Repo für **Web Template Studio** (Desktop-App + Website).
 - `verified`: wenn `true`, zeigt die Desktop-App ein Verified-Icon (✅) auf der Card + Detailseite
 - `preview` (optional): Pfad zu einem Vorschaubild im Repo, z. B. `previews/mein-template.png` – wird auf Cards + Detail-Panel gezeigt
 - `deploy` (optional): Liste von Deploy-Zielen als Indikatoren, z. B. `["github-pages"]`, `["vercel"]`, `["netlify"]`, `["node"]`
+- `features` (optional): Liste von Feature-Stichpunkten für die Detailseite
+- `versions` (optional): Versionshistorie für die Detailseite, z. B. `[{"version": "1.1.0", "date": "2026-10-09", "notes": "Neues Farbschema."}]`
+- `related` (geplant, siehe SiteSmith-Repo `IDEEN.md`): verwandte Templates/Versionen mit Relationstyp
 - `version`, `description`, `author`, `updated` (`YYYY-MM-DD`), `type` (`html` | `node` | `static` …), `languages`, `entry` (Startdatei)
 
 ## `.temp-config` – Format (liegt IN jedem Zip im Root)
